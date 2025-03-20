@@ -37,7 +37,7 @@ function SignUp() {
     }
 
     try {
-      const response = await fetch('https://schoolassignment.vercel.app/api/register', {
+      const response = await fetch('https://schoolassignment-backend.onrender.com/api/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
