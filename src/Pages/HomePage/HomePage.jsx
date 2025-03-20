@@ -30,10 +30,8 @@ export default function HomePage() {
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
               </li>
-              <li className="nav-item">
-                <Link to="/login" className="btn btn-outline-light rounded-pill px-4 mx-2">Login</Link>
-              </li>
-              <li className="nav-item">
+              <li className="nav-item d-grid gap-2 d-sm-block mt-3 mt-lg-0">
+                <Link to="/login" className="btn btn-outline-light rounded-pill px-4 me-sm-2 mb-2 mb-sm-0">Login</Link>
                 <Link to="/register" className="btn btn-light rounded-pill px-4 text-primary">Sign Up</Link>
               </li>
             </ul>
