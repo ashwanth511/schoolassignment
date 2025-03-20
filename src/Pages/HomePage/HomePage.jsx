@@ -208,7 +208,7 @@ export default function HomePage() {
         <div className="container">
           <div className="row">
             <div className="col-12 text-center text-white">
-              <p className="mb-0">Made with ❤️ for young learners</p>
+              <p className="mb-0">Made with ❤️ By Ashwanth</p>
             </div>
           </div>
         </div>
