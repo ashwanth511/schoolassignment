@@ -21,7 +21,6 @@ function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        // If login successful, navigate to quiz page
         navigate('/quiz');
       } else {
         setError(data.message);
@@ -32,11 +31,7 @@ function Login() {
   };
 
   return (
-    // min-vh-100: Makes the container take full viewport height
-    // d-flex: Makes it a flex container
-    // align-items-center: Vertically centers the content
-    // justify-content-center: Horizontally centers the content
-    // bg-gradient: Creates a gradient background matching our theme
+ 
     <div className='min-vh-100 d-flex align-items-center justify-content-center' style={{ background: 'black'}}> 
    
       <div className='col-11 col-sm-8 col-md-6 col-lg-5'>
